@@ -1,0 +1,16 @@
+footer {
+    background-color: $primary_color;
+    height: 30px;
+    overflow: hidden;
+    position: relative;
+
+    span {
+
+        &.footer-logo {
+            position: absolute;
+            top: 18px;
+            right: 0;
+            transform: translateY(-50%);
+        }
+    }
+}

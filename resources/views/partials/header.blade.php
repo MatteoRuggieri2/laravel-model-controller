@@ -1,3 +1,3 @@
 <header>
-    <span>sono l'header</span>
+    <span class="mega-text header-logo">header</span>
 </header>

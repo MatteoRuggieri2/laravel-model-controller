@@ -24,9 +24,31 @@ ul li {
   font-size: 16px;
 }
 
+.mega-text {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+header {
+  background-color: #8f0000;
+  height: 30px;
+  overflow: hidden;
+  position: relative;
+}
+
+header span.header-logo {
+  position: absolute;
+  top: 18px;
+  left: 0;
+  transform: translateY(-50%);
+}
+
 main {
-  padding: 50px 0;
+  padding: 50px 0 20px;
   background-color: black;
+  height: calc(100vh - 60px);
+  overflow-y: auto;
 }
 
 main .moviecard-container {
@@ -37,13 +59,13 @@ main .moviecard-container {
 
 main .moviecard-container .movie-card {
   margin: 10px 5px;
-  padding: 10px;
+  padding: 10px 15px;
   min-height: 200px;
   width: calc(25% - 10px);
-  background-color: #3f3f3f;
-  color: white;
+  background-color: #430000;
+  color: whitesmoke;
   border-radius: 10px;
-  border: 2px solid gray;
+  border: 2px solid #8f0000;
 }
 
 main .moviecard-container .movie-card h2 {
@@ -52,5 +74,19 @@ main .moviecard-container .movie-card h2 {
 
 main .moviecard-container .movie-card li {
   font-size: 14px;
+}
+
+footer {
+  background-color: #8f0000;
+  height: 30px;
+  overflow: hidden;
+  position: relative;
+}
+
+footer span.footer-logo {
+  position: absolute;
+  top: 18px;
+  right: 0;
+  transform: translateY(-50%);
 }
 

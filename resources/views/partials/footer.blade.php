@@ -1,3 +1,3 @@
 <footer>
-    <span>sono il footer</span>
+    <span class="mega-text footer-logo">footer</span>
 </footer>

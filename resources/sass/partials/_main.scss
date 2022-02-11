@@ -1,6 +1,8 @@
 main {
-    padding: 50px 0;
+    padding: 50px 0 20px;
     background-color: $primary_back_color;
+    height: calc(100vh - 60px);
+    overflow-y: auto;
 
     .moviecard-container {
         display: flex;
@@ -9,13 +11,13 @@ main {
 
         .movie-card {
             margin: 10px 5px;
-            padding: 10px;
+            padding: 10px 15px;
             min-height: 200px;
             width: calc( (100% / 4) - 10px );
-            background-color: rgb(63, 63, 63);
-            color: white;
+            background-color: darken($primary_color, 15%);
+            color: whitesmoke;
             border-radius: 10px;
-            border: 2px solid gray;
+            border: 2px solid $primary_color;
 
             h2 {
                 margin-bottom: 20px;

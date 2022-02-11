@@ -1,0 +1,16 @@
+header {
+    background-color: $primary_color;
+    height: 30px;
+    overflow: hidden;
+    position: relative;
+
+    span {
+
+        &.header-logo {
+            position: absolute;
+            top: 18px;
+            left: 0;
+            transform: translateY(-50%);
+        }
+    }
+}
