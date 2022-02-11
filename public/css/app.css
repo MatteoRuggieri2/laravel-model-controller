@@ -2,5 +2,55 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  padding: 5px 0;
+}
+
+.under-bold-text {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+main {
+  padding: 50px 0;
+  background-color: black;
+}
+
+main .moviecard-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+main .moviecard-container .movie-card {
+  margin: 10px 5px;
+  padding: 10px;
+  min-height: 200px;
+  width: calc(25% - 10px);
+  background-color: #3f3f3f;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid gray;
+}
+
+main .moviecard-container .movie-card h2 {
+  margin-bottom: 20px;
+}
+
+main .moviecard-container .movie-card li {
+  font-size: 14px;
 }
 

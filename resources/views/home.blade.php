@@ -6,6 +6,10 @@
 
 @section('main_content')
     
-    @include('components/moviecard')
+    <div class="container">
+        <div class="moviecard-container">
+            @include('components/moviecard')
+        </div>
+    </div>
 
 @endsection
