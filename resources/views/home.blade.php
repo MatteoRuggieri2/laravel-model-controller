@@ -8,11 +8,11 @@
     
     @foreach ($movies as $movie)
 
-        <h2>title</h2>
-        <div>original title</div>
-        <div>nationality</div>
-        <div>date</div>
-        <div>vote</div>
+        <h2>{{ $movie->title }}</h2>
+        <div>Original Title: {{ $movie->original_title }}</div>
+        <div>Nationality: {{ $movie->nationality }}</div>
+        <div>Date: {{ $movie->date }}</div>
+        <div>Vote: {{ $movie->vote }}</div>
 
     @endforeach
 
